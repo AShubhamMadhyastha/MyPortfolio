@@ -25,7 +25,7 @@ To get started with this project locally:
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/portfolio-website.git
+    git clone https://https://github.com/AShubhamMadhyastha/MyPortfolio.git
     ```
 2. Navigate into the project folder:
     ```bash
@@ -52,7 +52,7 @@ For example, to update the "About Me" section, edit the content inside the `abou
 
 The website is hosted on **GitHub Pages**. You can access it here:
 
-[https://yourusername.github.io/portfolio-website](https://yourusername.github.io/portfolio-website)
+[https://yourusername.github.io/portfolio-website]((https://ashubhammadhyastha.github.io/MyPortfolio/))
 
 ### Steps to deploy with GitHub Pages:
 1. Push your code to a GitHub repository.
@@ -60,14 +60,6 @@ The website is hosted on **GitHub Pages**. You can access it here:
 3. Under "Pages," select the branch you want to deploy (typically `main` or `gh-pages`).
 4. The site will be live in a few minutes at the provided GitHub Pages URL.
 
-## Contact
-
-Feel free to reach out to me if you have any questions, suggestions, or would like to connect professionally:
-
-- **Website**: [https://yourusername.github.io/portfolio-website](https://yourusername.github.io/portfolio-website)
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub](https://github.com/yourusername)
 
 Thank you for visiting my portfolio!
 
