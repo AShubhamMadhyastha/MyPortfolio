@@ -52,7 +52,7 @@ For example, to update the "About Me" section, edit the content inside the `abou
 
 The website is hosted on **GitHub Pages**. You can access it here:
 
-[https://yourusername.github.io/portfolio-website]((https://ashubhammadhyastha.github.io/MyPortfolio/))
+[[https://yourusername.github.io/portfolio-website]((https://ashubhammadhyastha.github.io/MyPortfolio/))](https://ashubhammadhyastha.github.io/MyPortfolio/)
 
 ### Steps to deploy with GitHub Pages:
 1. Push your code to a GitHub repository.
