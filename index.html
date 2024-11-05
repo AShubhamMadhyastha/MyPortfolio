@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="light-mode">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">A Shubham</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <button class="btn nav-button" onclick="location.href='#about'">About</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn nav-button" onclick="location.href='#projects'">Projects</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn nav-button" onclick="location.href='#contact'">Contact</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn nav-button"
+                            onclick="location.href='https://drive.google.com/file/d/1sW2k8FTZrR7gH3frOl92Bg3eJjm5kp2n/view?usp=drive_link'">Resume</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn nav-button" id="toggle-mode">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Welcome to My Portfolio</h1>
+            <a href="#about" class="scroll-down">↓</a>
+        </div>
+    </header>
+
+    <section id="about" class="about py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p> I am a passionate web developer with a knack for creating beautiful and functional websites.
+                With a background in design and a strong understanding of web technologies, I enjoy turning
+                ideas into reality. Whether it’s building a simple landing page or a complex web application,
+                I strive to provide the best user experience possible.
+            </p>
+            <p>
+                When I'm not coding, I enjoy exploring new technologies, working on personal projects,
+                and contributing to open-source. My goal is to continuously learn and grow in the ever-evolving
+                field of web development.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects py-5">
+        <div class="container text-center">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h2 style="font-weight: bold;">TaskMaster</h2>
+                        <p class="project-description">A web application for managing tasks, tracking productivity, and
+                            organizing due dates with a built-in calendar feature.</p>
+                        <div class="project-details">
+                            <p>In this project, I created a web-based task management application that helps users
+                                organize their daily tasks and track productivity. The app features a clean,
+                                user-friendly interface built with JavaScript, and is powered by Node.js on the backend.
+                                Key functionalities include task creation, task prioritization, and due date management,
+                                along with a calendar feature for better organization.</p>
+                            <p>Technologies used: HTML, CSS, JavaScript</p>
+                            <p>This project has allowed me to deepen my knowledge of web development, especially in
+                                working with front-end and back-end integration. It demonstrates my ability to build
+                                efficient, responsive web applications while managing data and state across the app.</p>
+                            <a href="https://ashubhammadhyastha.github.io/ToDoList/" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h2 style="font-weight: bold;">Color Picker App</h2>
+                        <p class="project-description">A web application for selecting and managing colors, viewing
+                            color codes, and generating gradients with a built-in history and sharing features.</p>
+                        <div class="project-details">
+                            <p>In this project, I developed a web-based color picker application that allows users to
+                                choose colors, view their corresponding color codes in multiple formats (Hex, RGB, HSL),
+                                and manage their color history. The app also includes features for creating gradients,
+                                switching between light and dark themes, simulating color blindness, and sharing colors
+                                via a unique URL. It has an intuitive, user-friendly interface designed with HTML, CSS,
+                                and JavaScript.</p>
+                            <p>Technologies used: HTML, CSS, JavaScript</p>
+                            <p>This project has given me the opportunity to refine my skills in front-end development
+                                and create a tool with real-world applications. It highlights my ability to build
+                                interactive, responsive web applications while handling user data and integrating
+                                multiple features for an enhanced user experience.</p>
+                            <a href="https://ashubhammadhyastha.github.io/colorPicker/" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <h2 style="font-weight: bold;">Advanced Calculator with Dark Mode</h2>
+                        <p class="project-description">A fully functional calculator with support for basic and advanced
+                            mathematical operations, memory functions, and a light/dark theme toggle.</p>
+                        <div class="project-details">
+                            <p>This project involved building a responsive web-based calculator that can perform a wide
+                                range of operations, from basic arithmetic to more advanced functions like square root,
+                                exponentiation, and logarithms. The app also includes a memory feature, allowing users
+                                to store and recall values. Additionally, users can toggle between light and dark themes
+                                to personalize their experience.</p>
+                            <p>Technologies used: HTML, CSS, JavaScript.</p>
+                            <p>Developing this calculator helped me improve my skills in DOM manipulation, event
+                                handling, and responsive design. It also gave me an opportunity to implement a
+                                light/dark mode feature and explore how user preferences can be easily managed with
+                                JavaScript. This project highlights my ability to build interactive and visually
+                                appealing web applications with clean and maintainable code.</p>
+
+
+                            <a href="https://ashubhammadhyastha.github.io/SimpleCalulator/" class="btn btn-primary">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p></p>I'd love to hear from you! Feel free to reach out for collaborations, inquiries, or just a friendly chat. 
+            You can find my contact details and social links below :)</p>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/ashubham8055/" target="_blank" class="icon-link"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/AShubhamMadhyastha" target="_blank" class="icon-link"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:your-ashubham31102002@gmail.com.com" class="icon-link"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
